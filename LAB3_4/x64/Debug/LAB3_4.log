@@ -1,0 +1,13 @@
+﻿  LAB3_4.cpp
+C:\Users\jjjjj\source\repos\LAB3_4\LAB3_4\Container.h(102,56): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "LAB3_4.cpp")
+  C:\Users\jjjjj\source\repos\LAB3_4\LAB3_4\Container.h(102,56):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\jjjjj\source\repos\LAB3_4\LAB3_4\LAB3_4.cpp(36,19):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Deque<Goods>"
+  	C:\Users\jjjjj\source\repos\LAB3_4\LAB3_4\Container.h(102,2):
+  	во время компиляции функции-члена класс шаблон "Deque<Goods>::Deque(std::initializer_list<Goods>)"
+  		C:\Users\jjjjj\source\repos\LAB3_4\LAB3_4\LAB3_4.cpp(36,25):
+  		см. первую ссылку на Deque<Goods>::Deque "main"
+  
+  LAB3_4.vcxproj -> C:\Users\jjjjj\source\repos\LAB3_4\x64\Debug\LAB3_4.exe
